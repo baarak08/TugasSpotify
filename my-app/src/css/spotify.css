@@ -1,444 +1,451 @@
-* {
-	/* background-color: #161616; */
-	color: white;
+@font-face {
+  font-family: "circularstd";
+  src: url(../assets/circular-std-medium-500.ttf);
 }
 
 #BG {
-	width: 100vw;
-	height: 100vh;
-	background-color: #0c0c0c;
-	position: fixed;
-	/* z-index: 0; */
+  width: 100vw;
+  height: 100vh;
+  background-color: #0c0c0c;
+  position: fixed;
+  /* z-index: 0; */
 }
 
 .pembungkusBungkus_Mikhael {
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .playbar1_Mikhael {
-	position: fixed;
-	bottom: 0;
-	z-index: 100;
-	width: 100vw;
-	height: 90.67px;
-	background-color: rgb(16, 16, 16);
-	display: flex;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 90.67px;
+  background-color: rgb(16, 16, 16);
+  display: flex;
 }
 
 .pembungkus_Mikhael {
-	display: flex;
+  display: flex;
 
-	align-items: center;
-	width: 100%;
-	padding: 0px 20px;
+  align-items: center;
+  width: 100%;
+  padding: 0px 20px;
 }
 
 .kiri_Mikhael {
-	display: flex;
+  display: flex;
 }
 .gambar_Mikhael img {
-	width: 56px;
-	height: 56px;
+  width: 56px;
+  height: 56px;
 }
 
 .judullagu_Mikhael {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 
-	padding: 0px 20px;
+  padding: 0px 20px;
 }
 
 .judullagu_Mikhael p {
-	color: white;
-	white-space: nowrap;
+  color: white;
+  white-space: nowrap;
 }
 
 .judullagu2_mikhael {
-	display: grid;
+  display: grid;
 }
 
 .logo_Mikhael {
-	display: flex;
-	padding: 0px 20px;
-	gap: 10px;
+  display: flex;
+  padding: 0px 20px;
+  gap: 10px;
 }
 
 /* Tengah  */
 .tengah_Mikhael {
-	display: grid;
+  display: grid;
 }
 
 .tombolAtas_Mikhael {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
+  /* color: white; */
 }
 
 .ta_Mikhael {
-	display: flex;
-	align-items: center;
-	font-size: 15px;
-	gap: 30px;
-	padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  gap: 30px;
+  padding-bottom: 5px;
+  /* color: white; */
 }
 
 .playButton_Mikhael {
-	font-size: 30px;
+  font-size: 30px;
+  /* color: white; */
 }
 
 .bawah {
-	display: flex;
+  display: flex;
 }
 
 .tombolBawah_Mikhael {
-	display: flex;
-	align-items: end;
-	justify-content: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
 }
 
 .slider_Mikhael {
-	display: flex;
-	justify-content: space-between;
-	gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .slider_Mikhael p {
-	font-size: 10px;
+  font-size: 10px;
 }
 
 .slider_Mikhael input {
-	width: 300px;
+  width: 300px;
 }
 
 /* kanan */
 .kananSpot_Mikhael {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 
-	justify-content: right;
-	gap: 20px;
+  justify-content: right;
+  gap: 20px;
 }
 
 .isiKanan_Mikhael {
-	display: flex;
-	justify-content: right;
-	gap: 15px;
-	width: 300px;
+  display: flex;
+  justify-content: right;
+  gap: 15px;
+  width: 300px;
 }
 
 .isiKanan_Mikhael Slider {
-	width: 200px;
+  width: 200px;
 }
 
 /* Playbar selesai */
 
 .Container1_Mikhael {
-	display: flex;
-	z-index: 1;
-	position: fixed;
-	width: 100%;
-	height: 60px;
-	justify-content: flex-end;
+  display: flex;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  justify-content: flex-end;
 }
 
 .Container2_Mikhael {
-	display: flex;
-	height: 60px;
-	width: 100%;
-	background-color: black;
-	justify-content: space-between;
-	align-items: center;
-	padding-left: 261px;
-	padding-right: 20px;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 261px;
+  padding-right: 20px;
 }
 
 .Container3_Mikhael {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .Profil_Mikhael {
-	display: flex;
-	align-items: center;
-	gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .RightLeft_Mikhael {
-	display: flex;
-	width: 80px;
-	justify-content: center;
-	gap: 20px;
+  display: flex;
+  width: 80px;
+  justify-content: center;
+  gap: 20px;
 
-	background-color: black;
+  background-color: black;
 }
 
 .UpgradeProfil_Mikhael {
-	display: flex;
-	gap: 20px;
-	align-items: center;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .garis_Mikhael {
-	display: flex;
-	width: 700px;
-	gap: 1000px;
+  display: flex;
+  width: 700px;
+  gap: 1000px;
 }
 
 .Upgrade1_Mikhael {
-	display: flex;
+  display: flex;
 }
 
 .Gambar2_Mikhael {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 30px;
-	height: 30px;
-	border-radius: 2000px;
-	overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 2000px;
+  overflow: hidden;
 }
 .Gambar2_Mikhael img {
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 .backgroundB {
-	max-width: 100vw;
-	position: fixed;
-	z-index: 1;
-	height: 100vh;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	background-color: rgb(12, 12, 12);
+  max-width: 100vw;
+  position: fixed;
+  z-index: 1;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(12, 12, 12);
 }
 .paddingKontenB {
-	/* padding-left: 241px; */
-	margin-left: 241px;
-	/* padding-top: 34px; */
-	padding-bottom: 90px;
-	padding-right: 32px;
-	height: calc(100vh - 90px);
-	overflow-y: scroll;
-	scroll-behavior: smooth;
+  /* padding-left: 241px; */
+  margin-left: 241px;
+  /* padding-top: 34px; */
+  padding-bottom: 90px;
+  padding-right: 32px;
+  height: calc(100vh - 90px);
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 .paddingKontenB::-webkit-scrollbar {
-	background-color: rgb(16, 16, 16);
-	width: 12px;
-	height: 5px;
+  background-color: rgb(16, 16, 16);
+  width: 12px;
+  height: 5px;
 }
 .paddingKontenB::-webkit-scrollbar-thumb {
-	background-color: rgb(12, 12, 12);
+  background-color: rgb(12, 12, 12);
 }
 .paddingKontenB:hover::-webkit-scrollbar-thumb {
-	background-color: #aaa;
+  background-color: #aaa;
 }
 .kontenerB {
-	width: calc(100vw-241px);
-	max-width: 100vw;
-	max-height: 350px;
-	/* flex-wrap: wrap; */
-	padding-top: 20px;
-	overflow: hidden;
+  width: calc(100vw-241px);
+  max-width: 100vw;
+  max-height: 350px;
+  /* flex-wrap: wrap; */
+  padding-top: 20px;
+  overflow: hidden;
 }
 .namaGroupB {
-	width: calc(100vw-241px);
-	max-width: 100vw;
-	padding-right: 28px;
-	height: 50px;
-	display: flex;
-	justify-content: space-between;
+  width: calc(100vw-241px);
+  max-width: 100vw;
+  padding-right: 28px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 .h1B {
-	padding-left: 30px;
-	font-weight: 600;
-	color: white;
-	font-size: 24px;
-	cursor: pointer;
+  padding-left: 30px;
+  font-weight: 600;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
 }
 .h1B:hover {
-	text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 .h2B {
-	display: flex;
-	/* text-align: right; */
-	align-items: center;
-	padding-left: 30px;
-	font-weight: 600;
-	color: rgb(167, 167, 167);
-	font-size: 14px;
-	cursor: pointer;
+  display: flex;
+  /* text-align: right; */
+  align-items: center;
+  padding-left: 30px;
+  font-weight: 600;
+  color: rgb(167, 167, 167);
+  font-size: 14px;
+  cursor: pointer;
 }
 .h2B:hover {
-	text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 #musicCoverB {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 27px;
-	row-gap: 80px;
-	padding-left: 30px;
-	height: 290px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+  row-gap: 80px;
+  padding-left: 30px;
+  height: 290px;
 }
 .cardB {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: center;
-	/* z-index: 1; */
-	width: 192.2px;
-	height: 270.21px;
-	border: 1px solid rgb(24, 24, 24);
-	border-radius: 5px;
-	cursor: pointer;
-	background-color: rgb(24, 24, 24);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  /* z-index: 1; */
+  width: 192.2px;
+  height: 270.21px;
+  border: 1px solid rgb(24, 24, 24);
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(24, 24, 24);
 }
 .cardB:hover {
-	background-color: rgb(46, 46, 46);
-	transition: 0.6s;
+  background-color: rgb(46, 46, 46);
+  transition: 0.6s;
 }
 #playbuttonB {
-	width: 192.2px;
-	height: 270.21px;
-	position: relative;
-	z-index: 3;
-	background: none;
-	/* opacity: 0; */
-	/* display: grid; */
-	display: inline;
-	justify-items: end;
-	align-items: center;
-	transition: 0.3s;
-	padding-right: 15px;
-	padding-top: 20px;
+  width: 192.2px;
+  height: 270.21px;
+  position: relative;
+  z-index: 3;
+  background: none;
+  /* opacity: 0; */
+  /* display: grid; */
+  display: inline;
+  justify-items: end;
+  align-items: center;
+  transition: 0.3s;
+  padding-right: 15px;
+  padding-top: 20px;
 }
 #playbuttonB:hover {
-	opacity: 1;
+  opacity: 1;
 }
 .gambarB {
-	width: 230px;
-	height: 182.2px;
-	padding-top: 10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: 230px;
+  height: 182.2px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .img1B {
-	border-radius: 10px;
-	/* z-index: 0;
+  border-radius: 10px;
+  /* z-index: 0;
 	position: fixed; */
 }
 .img2B {
-	border-radius: 5px;
-	/* z-index: 1;
+  border-radius: 5px;
+  /* z-index: 1;
 	position: fixed; */
 }
 .infoB {
-	height: 75px;
-	padding-left: 13px;
-	padding-right: 13px;
-	width: 246px;
+  height: 75px;
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 246px;
 }
 .tittleB {
-	font-size: 16px;
-	font-weight: 600;
-	color: white;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
 }
 .keteranganB {
-	padding-top: 5px;
-	font-size: 13px;
-	font-weight: 500;
-	color: rgb(167, 167, 167);
+  padding-top: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(167, 167, 167);
 }
 #boxS {
-	max-width: 241px;
-	width: 241px;
-	height: 100vh;
-	z-index: 4;
-	position: fixed;
-	background-color: black;
-	padding-left: 22px;
-	padding-top: 22px;
-	padding-right: 3px;
+  max-width: 241px;
+  width: 241px;
+  height: 100vh;
+  z-index: 4;
+  position: fixed;
+  background-color: black;
+  padding-left: 22px;
+  padding-top: 22px;
+  padding-right: 3px;
 }
 
 #spotifyS {
-	width: 205x;
-	padding-right: 22px;
+  width: 205x;
+  padding-right: 22px;
 
-	background-color: black;
+  background-color: black;
 }
 
 .logoS {
-	width: 130px;
+  width: 130px;
 
-	background-color: black;
+  background-color: black;
 }
 
 #homeS {
-	padding-top: 20px;
+  padding-top: 20px;
 
-	background-color: black;
+  background-color: black;
 }
 .flexS {
-	background-color: black;
-	width: 205x;
-	height: 40px;
-	align-items: center;
-	gap: 20px;
+  background-color: black;
+  width: 205x;
+  height: 40px;
+  align-items: center;
+  gap: 20px;
+  color: #9d9187;
+}
+.flexS:hover {
+  color: white;
 }
 
 .flexS div {
-	height: 40px;
-	display: flex;
-	align-items: center;
-}
-
-div {
-	color: #9d9187;
-	/* width: 100%; */
-	align-items: center;
-}
-
-div:hover {
-	color: white;
-}
-
-#playlistS {
-	background-color: black;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border-bottom: 1px;
-	border-style: groove;
-	border-color: #262626;
-}
-
-#boxPlaylistS {
-	background-color: black;
-	padding-top: 20px;
-	height: 470px;
-	overflow-y: hidden;
-	overflow-x: hidden;
-}
-#boxPlaylistS:hover {
-	background-color: black;
-	height: 470px;
-	overflow-y: scroll;
-}
-
-#boxPlaylistS::-webkit-scrollbar {
-	background-color: transparent;
-	width: 12px;
-	height: 5px;
-}
-
-#boxPlaylistS::-webkit-scrollbar-thumb {
-	background-color: #aaa;
+  height: 40px;
+  display: flex;
+  align-items: center;
 }
 
 #boxPlaylistS div {
-	background-color: black;
-	height: 32px;
-	display: flex;
-	align-items: center;
+  color: #9d9187;
+  width: 100%;
+  align-items: center;
+}
+
+#boxPlaylistS div:hover {
+  color: white;
+}
+
+#playlistS {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px;
+  border-style: groove;
+  border-color: #262626;
+}
+
+#boxPlaylistS {
+  background-color: black;
+  padding-top: 20px;
+  height: 470px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+#boxPlaylistS:hover {
+  background-color: black;
+  height: 470px;
+  overflow-y: scroll;
+}
+
+#boxPlaylistS::-webkit-scrollbar {
+  background-color: transparent;
+  width: 12px;
+  height: 5px;
+}
+
+#boxPlaylistS::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+}
+
+#boxPlaylistS div {
+  background-color: black;
+  height: 32px;
+  display: flex;
+  align-items: center;
 }

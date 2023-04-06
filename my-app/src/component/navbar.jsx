@@ -9,8 +9,22 @@ import {
 import { Button } from "@chakra-ui/react";
 
 import gambar1 from "../asset/foto1.jpg";
+import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
+import { auth_types } from "../redux/types";
 
 export default function Navbar() {
+  const userSelector = useSelector((state) => state.auth);
+
+  const dispatch = useDispatch();
+  const nav = useNavigate();
+
+  function logout() {
+    dispatch({ type: auth_types.logout });
+    localStorage.removeItem("user");
+    nav("/login");
+  }
+
   return (
     <div className="Container1_Mikhael">
       <div className="Container2_Mikhael">
@@ -43,7 +57,10 @@ export default function Navbar() {
             <div className="Gambar2_Mikhael">
               <img src={gambar1} alt="" />
             </div>
-            <p>Mikhael Wellm... </p>
+            <div onClick={logout} style={{ cursor: "pointer" }}>
+              {" "}
+              {userSelector?.email}{" "}
+            </div>
             <FontAwesomeIcon icon={faCaretDown} style={{ color: "#ffffff" }} />
           </div>
         </div>
